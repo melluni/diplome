@@ -5,29 +5,503 @@
 	<title>Fred&Fresh</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	
+	<link rel="stylesheet" href="text/css" href='fonts.css'>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> -->
 	
 </head>
 <body>
 	<header class="header">
-	<div class="container">
-	<div class="main__logo">
-		<img src="img/logo.png" alt="main__logo">
-	</div>
-	<nav class="main__menu">
-	<div class="helper-block">
-		<ul class="first-part">
+		<div class="container">
+		<div class="main__logo">
+			<img src="img/logo.png" alt="main__logo">
+		</div>
+		<nav class="main__menu">
+		<div class="helper-block">
+			<ul class="first-part">
+				<li>
+					<a href="#start">Головна</a>
+				</li>
+				<li>
+					<a href="#about">Чому ми</a>
+				</li>
+				<li>
+					<a href="#menu">Меню</a>
+				</li>
+				<li>
+					<a href="#media">медіа</a>
+				</li>
+				<li>
+					<a href="#service">сервіс</a>
+				</li>
+			</ul>
+			</div>
+			<div class="helper-block">
+			<ul class="second-part">
+				<li>
+					<a href="#cooks">кухарі</a>
+				</li>
+				<li>
+					<a href="#map">Ми на мапі</a>
+				</li>
+				<li>
+					<a href="#news">Новини</a>
+				</li>
+				<li>
+					<a href="#contacts">напишіть нам</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		</div>
+	</header>
+	<section class="start" id="start">
+		<div class="divider-small"></div>
+		<div class="small-let">Ми потурбуємось про ваше</div>
+		<h1>здорове та якісне харчування</h1>
+		<div class="second-line">
+			<div class="small-let-two">
+				<div class="double-let">
+					<p>а вільний час залиште</p>
+					<p>для нових</p>
+				</div>
+				<h2>звершень!</h2>
+			</div>
+		</div>
+		<img src="img/big-burger.png" alt="burger">
+	</section>
+	<section class="about" id="about">
+		<img src="img/about-logo.png" alt="logo" class="logo__small">
+		<h2>Чому саме FRED<span>&</span>FRESH?</h2>
+		<ul class="reason__list">
 			<li>
-				<a href="#start">Головна</a>
+				<div class="round-img first-circle"></div>
+				<div class="text-info">
+					<h3>Сезонні меню — ваше добре самопочуття </h3>
+					<p>Ми турбуємося про те, щоб з нашими пропозиціями ви щосезону отримували всі корисні вітаміни та мінерали</p>
+				</div>
 			</li>
 			<li>
-				<a href="#about">Чому ми</a>
+				<div class="text-info">
+					<h3>Виключно свіжі страви</h3>
+					<p>Все, що ви їсте, гарантовано виготовлено саме сьогодні</p>
+				</div>
+				<div class="round-img second-circle"></div>
+			</li>
+			<li class="big-img-item">
+				<div class="big-img"></div>
+				<div class="big-text-info">
+					<h3>Справжні страви від шеф-повара</h3>
+					<p>Звикли харчуватися якісно та смачно? Ми приємно здивуємо вас класичними смаками високої кухні, а також потішимо новими унікальними поєднаннями</p>
+				</div>
 			</li>
 			<li>
-				<a href="#menu">Меню</a>
+				<div class="text-info">
+					<h3>Кожен інгрідіент ми готуємо самостійно </h3>
+					<p>Майонез, шинка чи моцарелла — ніяких напівфабрикатів, тільки домашні продукти</p>
+				</div>
+				<div class="round-img four-circle"></div>
+			</li>
+			<li>
+				<div class="round-img fifth-circle"></div>
+				<div class="text-info">
+					<h3>Ми завжди доступні, пунктуальні та відкриті</h3>
+					<p>Зручна доставка, гнучкі замовлення, індивідуальний підхід — з нами просто і приємно працювати</p>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<section class="menu" id="menu">
+		<div class="container">
+			<img src="img/menu-icon.png" alt="sandwich">
+			<h2>fred&fresh меню</h2>
+			<div class="menu__category">
+				<div class="flag"></div>
+				<div class="main-pic">
+					<img src="img/sandwich-3.png" alt="sandwich">
+				</div>
+				<div class="menu__list">
+					<div class="menu-item-header">
+						<h3> Fred&Sandwich</h3>
+						<p>сендвічі та багети</p>
+						<div class="little-divider"></div>
+					</div>
+					<ul class="menu-items">
+						<li>
+							<img src="img/sandwich1.png" alt="moz-tomato">
+							<div class="description">
+								<h3>40 грн</h3>
+								<h4>mozzarella& tomato</h4>
+								<p>Сэндвіч з прикопченою моцареллою, томатами та домашнім песто</p>
+								<p>Вага 220 г</p>
+							</div>
+							<button type="submit">детальніше</button>
+						</li>
+						<li>
+							<img src="img/sandwich2.png" alt="zuc-eggs">
+							<div class="description">
+								<h3>40 грн</h3>
+								<h4>zuccini&eggs</h4>
+								<p>Житній багет з маринованим кабачком, яйцем та томатами</p>
+								<p>Вага 240 г</p>
+							</div>
+							<button type="submit">детальніше</button>					
+						</li>					
+						<li>
+							<img src="img/sandwich3.png" alt="fred-vit">
+							<div class="description">
+								<h3>40 грн</h3>
+								<h4>fred&vitello</h4>
+								<p>Сендвіч з копченим ростбіфом, томатами і соусом вітелло тонато</p>
+								<p>Вага 220 г</p>
+							</div>
+							<button type="submit">детальніше</button>				
+						</li>
+					</ul>
+					<div class="slider-arrow-backward"></div>
+					<div class="slider-arrow-forward"></div>
+				</div>
+			</div>
+
+			<div class="menu__category">
+				<div class="flag"></div>
+				<div class="main-pic">
+					<img src="img/sandwich---soup.png" alt="sandwich">
+				</div>
+				<div class="menu__list">
+					<div class="menu-item-header">
+						<h3>Fred&Soup</h3>
+						<p>холодні супи та крем-супи</p>
+						<div class="little-divider"></div>
+					</div>
+					<ul class="menu-items">
+						<li>
+							<img src="img/soup1.png" alt="soup">
+							<div class="description">
+								<h3>30 грн</h3>
+								<h4>peas&bacon</h4>
+								<p>Гороховий крем-суп з куркумою, беконом  та хрустким нутом</p>
+								<p>Вага 250 г</p>
+							</div>
+							<button type="submit">детальніше</button>
+						</li>
+						<li>
+							<img src="img/soup2.png" alt="soup">
+							<div class="description">
+								<h3>30 грн</h3>
+								<h4>mushroom&truffle</h4>
+								<p>Грибний крем-суп з трюфельним ароматом і сухариками</p>
+								<p>Вага 250 г</p>
+							</div>
+							<button type="submit">детальніше</button>					
+						</li>					
+						<li>
+							<img src="img/soup3.png" alt="soup">
+							<div class="description">
+								<h3>30 грн</h3>
+								<h4>peas&wasabi</h4>
+								<p>Крем-суп з молодого горошку з додаванням васаби</p>
+								<p>Вага 250 г</p>
+							</div>
+							<button type="submit">детальніше</button>				
+						</li>
+					</ul>
+					<div class="slider-arrow-backward"></div>
+					<div class="slider-arrow-forward"></div>
+				</div>
+			</div>
+
+			<div class="menu__category">
+				<div class="flag"></div>
+				<div class="main-pic">
+					<img src="img/salad.png" alt="sandwich">
+				</div>
+				<div class="menu__list">
+					<div class="menu-item-header">
+						<h3> Fred&Salad</h3>
+						<p>овочеві та м’ясні салати</p>
+						<div class="little-divider"></div>
+					</div>
+					<ul class="menu-items">
+						<li>
+							<img src="img/salad1.png" alt="salad">
+							<div class="description">
+								<h3>40 грн</h3>
+								<h4>asian&celery</h4>
+								<p>Фітнес-салат з селерою, яблуком, морквою та копченим тофу.</p>
+								<p>Вага 300 г</p>
+							</div>
+							<button type="submit">детальніше</button>
+						</li>
+						<li>
+							<img src="img/salad2.png" alt="salad">
+							<div class="description">
+								<h3>40 грн</h3>
+								<h4>fred&beet</h4>
+								<p>Салат із запеченим буряком з сиром рікотта та горіхами.</p>
+								<p>Вага 300 г</p>
+							</div>
+							<button type="submit">детальніше</button>					
+						</li>					
+						<li>
+							<img src="img/salad3.png" alt="salad">
+							<div class="description">
+								<h3>50 грн</h3>
+								<h4>chicken&avocado</h4>
+								<p> Салат із запеченою куркою, томатами та авокадо.</p>
+								<p>Вага 300 г</p>
+							</div>
+							<button type="submit">детальніше</button>				
+						</li>
+					</ul>
+					<div class="slider-arrow-backward"></div>
+					<div class="slider-arrow-forward"></div>
+				</div>
+			</div>
+
+			<div class="menu__category">
+				<div class="flag"></div>
+				<div class="main-pic">
+					<img src="img/desert.png" alt="sandwich">
+				</div>
+				<div class="menu__list">
+					<div class="menu-item-header">
+						<h3>Fred&Dessert</h3>
+						<p>різноманітні десерти</p>
+						<div class="little-divider"></div>
+					</div>
+					<ul class="menu-items">
+						<li>
+							<img src="img/desert1.png" alt="desert">
+							<div class="description">
+								<h3>25 грн</h3>
+								<h4>yogurt</h4>
+								<p>Домашній йогурт з варенням, пластівцями та сезонними ягодами</p>
+							</div>
+							<button type="submit">детальніше</button>
+						</li>
+						<li>
+							<img src="img/desert2.png" alt="desert">
+							<div class="description">
+								<h3>20 грн</h3>
+								<h4>napoleon</h4>
+								<p>Наполеон із заварним кремом та томленою грушею</p>
+							</div>
+							<button type="submit">детальніше</button>					
+						</li>					
+						<li>
+							<img src="img/desert3.png" alt="desert">
+							<div class="description">
+								<h3>7 грн</h3>
+								<h4>eclair</h4>
+								<p>Ніжні еклери з заварним кремом</p>
+							</div>
+							<button type="submit">детальніше</button>				
+						</li>
+					</ul>
+					<div class="slider-arrow-backward"></div>
+					<div class="slider-arrow-forward"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="media" id="media">
+		
+	</section>
+	<section class="services" id="service">
+			<img  class="icon-serv" src="img/service-icon.png" alt="icon">
+			<h2>fred&service</h2>
+			<div class="container">
+				<ul class="info-article">
+					<li>
+						<div class="articles">
+							<div class="serv-img">
+								<img src="img/service1.png" alt="photo">
+							</div>
+							<div class="info">
+								<h6>Корпоративне обслуговування</h6>
+								<p>Ми із задоволенням готові сформувати графік доставки продуктів у ваш офіс в тій кількості, яка вам необхідна. Також тут можна написати як вигідно співпрацювати з нами за такою схемою.</p>
+								<button type="submit">детальніше</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="articles">
+							<div class="serv-img">
+								<img src="img/service2.png" alt="photo">
+							</div>
+							<div class="info">
+								<h6>Кейтеринг</h6>
+								<p>Плануете корпоратив? Чи просто бажаете відпочити? Ми допоможемо вам організувати будь-яке свято в обмежені сроки та практично в будь-якому об’ємі.</p>
+								<button type="submit">детальніше</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="articles">
+							<div class="serv-img">
+								<img src="img/service3.png" alt="photo">
+							</div>
+							<div class="info">
+								<h6>Доставка</h6>
+								<p>З легкістю ми нагодуємо велику зголоднілу компанию. Сформоване замовлення ми доставимо в найкоротші строки у будь-яку точку міста Києва.</p>
+								<button type="submit">детальніше</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="articles">
+							<div class="serv-img">
+								<img src="img/service4.png" alt="photo">
+							</div>
+							<div class="info">
+								<h6>Співробітництво</h6>
+								<p>Якщо ви не знайшли потрібного вам серед наших послуг - ми із задоволенням обговоримо будь-які ваші пропозиції та спробуємо задовольнити будь-які потреби.</p>
+								<button type="submit">детальніше</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+	</section>
+
+	<section class="cooks" id="cooks">
+		<div class="header-logo">
+			<img src="img/icon-chief.png" alt="logo">
+			<h2>fred&chief</h2>
+		</div>
+			<div class="chief-info">
+			<div class="general-descr">
+					Ось так виглядають ті, чиї турботливі руки щоденно створюють шедеври, якими ви так полюбляєте насолоджуватися.
+			</div>
+			<div class="chief-descr">
+			<ul>
+
+				<li>
+					<p class="name">Артем</p>
+					<p> Наш головний натхненник і просто людина з золотими руками та відмінним смаком. Саме він створює, поєднує та змішує чарівні компоненти, з яких і утворюється кулінарна магія. </p>
+				</li>
+				<li>
+					<p class="name">Олександр</p>
+					<p>І тут так само щось кльове про другого шефа, який так само незамінний і дуже талановитий. </p>
+				</li>
+				<li>
+					<p class="name">Микола</p>
+					<p>А ще у нас напевне є третій шеф, який так само приємна людина та справжній професіонал.</p>
+				</li>
+			</ul>
+			</div>
+			</div>
+		
+	</section>
+	<section class="map" id="map">
+		
+	</section>
+	<section class="news-sec" id="news">
+		<img src="img/news-icon.png" alt="icon">
+		<h2>fred&news</h2>
+		<div class="news-list">
+			<ul class="news">
+				<li>
+					<div class="news-block">
+						<div class="date">25.11.15</div>
+						<img src="img/news1.png" alt="illustration">
+						<div class="content">
+							<h4>В нашому меню новинка!</h4>
+							<p>Ми із задоволенням готові представити вам абсолютно новий салат.</p>
+							<button type="submit" name="details">детальніше</button> 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="news-block">
+						<div class="date">15.10.15</div>
+						<img src="img/news2.png" alt="illustration">
+						<div class="content">
+							<h4>Шукайте нас на фестивалі</h4>
+							<p>Так, 25 жовтня ми віришили взяти участь у черговому фестивалі вуличної їжі. </p>
+							<button type="submit" name="details">детальніше</button> 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="news-block">
+						<div class="date">01.09.15</div>
+						<img src="img/news3.png" alt="illustration">
+						<div class="content">
+							<h4>«Пригости друга»</h4>
+							<p>Безпрецедентна акція за підтримки наших партнерів.</p>
+							<button type="submit" name="details">детальніше</button> 
+						</div>
+					</div>
+					
+				</li>
+				<li>
+					<div class="news-block">
+						<div class="date">09.07.15</div>
+						<img src="img/news4.png" alt="illustration">
+						<div class="content">
+							<h4>Сезонне меню</h4>
+							<p>Пора вітамінів! Відтепер наші страви ще корисніші!</p>
+							<button type="submit" name="details">детальніше</button> 
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="more-news">
+			<button type="submit">більше новин</button>
+		</div>
+	</section>
+	<section class="contacts" id="contacts">
+		<div class="wrap-help">
+			<div class="contact-header">
+				<img src="img/contact-icon.png" alt="contact-logo">
+				<h2>НАПИШІТЬ НАМ</h2>
+				<p>та замовте дегустацію, зробіть відгук, запропонуйте співпрацю чи просто подякуйте</p>
+			</div>
+			<form name="contact-form">
+				<div class="contact-form">
+					<div class="contact-left">
+						<input type="email" placeholder="E-mail">
+						<div class="select-block">
+		   					<select size="1" required name="complaint">
+		    					<option disabled selected>Оберіть тему звернення</option>
+		    					<option value="Complaint">Complaint</option>
+		   						 <option value="Opinion">Opinion</option>
+		    					<option value="Review">Review</option>
+		    					<option value="Suggestions">Suggestions</option>
+		   					</select>
+		   				</div>
+		  			</div>
+		  			<div class="contact-right">
+		  				<textarea name="suggestion" rows="5" placeholder="Текст звернення"></textarea>
+		  			</div>
+				</div>
+				<div class="subm-button">
+					<button type="submit">надіслати</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="call-act">
+			<h3>або подзвоніть!</h3>
+			<p>+38 099 385 4 333</p>
+		</div>
+		<ul class="small-menu">
+			<li>
+				<a href="#start">головна</a>
+			</li>
+			<li>
+				<a href="#about"> чому ми</a>
+			</li>
+			<li>
+				<a href="#menu">меню</a>
 			</li>
 			<li>
 				<a href="#media">медіа</a>
@@ -35,221 +509,38 @@
 			<li>
 				<a href="#service">сервіс</a>
 			</li>
-		</ul>
-		</div>
-		<div class="helper-block">
-		<ul class="second-part">
 			<li>
 				<a href="#cooks">кухарі</a>
 			</li>
 			<li>
-				<a href="#map">Ми на мапі</a>
+				<a href="#map">ми на мапі</a>
 			</li>
 			<li>
-				<a href="#news">Новини</a>
+				<a href="#news">новини</a>
 			</li>
 			<li>
 				<a href="#contacts">напишіть нам</a>
 			</li>
 		</ul>
-		</div>
-	</nav>
-	</div>
-	</header>
-	<section class="start">
-		<h1></h1>
-		<p></p>
-		<img src="" alt="burger">
-	</section>
-	<section class="about">
-		<img src="" alt="logo" class="logo__small">
-		<h2></h2>
-		<ul class="reason__list">
+		<div class="divider"></div>
+		<ul class="social">
 			<li>
-				<figure>
-					<img src="" alt="icon">
-					<figcaption></figcaption>
-					<p></p>
-				</figure>
+				<a href="https://www.facebook.com/Fredandfresh/?rc=p">
+					<img src="img/fb-icon.png" alt="FB">
+				</a>
+			<li>
+				<a href="https://www.instagram.com/fredandfresh/">
+						<img src="img/ig-icon.png" alt="IG">
+				</a>
 			</li>
 			<li>
-				<figure>
-					<figcaption></figcaption>
-					<p></p>
-					<img src="" alt="icon">
-				</figure>
+				<a href="https://www.skype.com/ru/">
+						<img src="img/scype-ic.png" alt="Skype">
+				</a>
 			</li>
-			<li>
-				<figure>
-					<img src="" alt="icon">
-					<figcaption></figcaption>
-					<p></p>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<figcaption></figcaption>
-					<p></p>
-					<img src="" alt="icon">
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img src="" alt="icon">
-					<figcaption></figcaption>
-					<p></p>
-				</figure>
 			</li>
 		</ul>
-	</section>
-	<section class="menu">
-	<div class="menu__item">
-		<img src="" alt="sandwich">
-		<div class="menu__list">
-			<h2> Fred&Sandwich</h2>
-			<p> sandw and bag</p>
-			<div class="icon-flag">
-				<img src="" alt="icon">
-		</div>
-		<div class="menu__item">
-			<img src="" alt="sandwich">
-			<div class="menu__list">
-			<h2> Fred&Sandwich</h2>
-			<p> sandw and bag</p>
-			<div class="icon-flag">
-				<img src="" alt="icon">
-		</div>
-			<ul>
-				<li>
-					<img src="" alt="sandwich">
-					<h4>40 grn</h4>
-					<h5> Mozzarella&tomato</h5>
-					<p></p>
-					<button type="submit">Details</button>
-				</li>
-				<li>
-					<img src="" alt="sandwich">
-					<h4>40 grn</h4>
-					<h5> Zuccini&eggs</h5>
-					<p></p>
-					<button type="submit">Details</button>
-				</li>
-				<li>
-					<img src="" alt="sandwich">
-					<h4>40 grn</h4>
-					<h5> Fred&vitello</h5>
-					<p></p>
-					<button type="submit">Details</button>
-				</li>
-			</ul>
-		</div>
-	</div>
-	</section>
-	<section class="media">
-		
-	</section>
-	<section class="services">
-			<img src="" alt="icon">
-			<h2>fred&service</h2>
-			<ul class="info-article">
-				<li class="articles">
-					<img src="" alt="photo">
-					<h6>Corporate services</h6>
-					<p></p>
-					<button type="submit">Details</button>
-				</li>
-				<li class="articles">
-					<img src="" alt="photo">
-					<h6>Catering</h6>
-					<p></p>
-					<button type="submit">Details</button>
-				</li>
-				<li class="articles">
-					<img src="" alt="photo">
-					<h6>Delivery</h6>
-					<p></p>
-					<button type="submit">Details</button>
-				</li>
-				<li class="articles">
-					<img src="" alt="photo">
-					<h6>Cooperation</h6>
-					<p></p>
-					<button type="submit">Details</button>
-				</li>
-			</ul>
-	</section>
-
-	<section class="cooks">
-		<div class="header-logo">
-			<img src="" alt="logo">
-			<h2>fred&chief</h2>
-		</div>
-		<div class="main-info">
-			<img src="" alt="chiefs">
-			<ul class="chief-info">
-				<li>
-					*/description
-				</li>
-				<li>
-					<p>Artem</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum commodi sit, nemo </p>
-				</li>
-				<li>
-					<p>Oleksandr</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum commodi sit, nemo </p>
-				</li>
-				<li>
-					<p>Mukola</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum commodi sit, nemo </p>
-				</li>
-			</ul>
-		</div>
-		
-	</section>
-	<section class="map">
-		
-	</section>
-	<section class="news">
-		<img src="" alt="icon">
-		<h2>fred&news</h2>
-		<ul class="news">
-			<li>
-				<div class="date">25.11.15</div>
-				<img src="" alt="illustration">
-				<h4>Lorem ipsum dolor sit amet.</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ad dolorem aspernatur, perferendis, vitae iste dolorum est,</p>
-				<button type="submit" name="details"></button> 
-			</li>
-			<li>
-				<div class="date">15.10.15</div>
-				<img src="" alt="illustration">
-				<h4>Lorem ipsum dolor sit amet.</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ad dolorem aspernatur, perferendis, vitae iste dolorum est,</p>
-				<button type="submit" name="details"></button> 
-			</li>
-			<li>
-				<div class="date">01.09.15</div>
-				<img src="" alt="illustration">
-				<h4>Lorem ipsum dolor sit amet.</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ad dolorem aspernatur, perferendis, vitae iste dolorum est,</p>
-				<button type="submit" name="details"></button> 
-			</li>
-			<li>
-				<div class="date">09.07.15</div>
-				<img src="" alt="illustration">
-				<h4>Lorem ipsum dolor sit amet.</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ad dolorem aspernatur, perferendis, vitae iste dolorum est,</p>
-				<button type="submit" name="details"></button> 
-			</li>
-		</ul>
-		<button type="submit">More news</button>
-		
-	</section>
-	<section>
-		
-	</section>
-	<section class="contacts">
-		
+		<div class="copyright">© PRJCTR 2015</div>
 	</section>
 </body>
 </html>
