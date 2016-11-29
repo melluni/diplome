@@ -6,11 +6,10 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="text/css" href='fonts.css'>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> -->
+	<link rel="stylesheet" href='css/fonts.css'>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
 	
 </head>
 <body>
@@ -310,10 +309,22 @@
 		</div>
 	</section>
 	<section class="media" id="media">
+		<img class="icon-media" src="img/media-icon.png" alt="icon">
+		<h2>fred&media</h2>
 		
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" style='background-image: url(img/slide1.jpg)'></div>
+		        <div class="swiper-slide" style='background-image: url(img/slide2.jpg)'></div>
+		        <div class="swiper-slide" style='background-image: url(img/slide3.jpg)'></div>
+		    </div>
+		    
+		    <div class="swiper-btn-prev"></div>
+		    <div class="swiper-btn-next"></div>
+		</div>
 	</section>
 	<section class="services" id="service">
-			<img  class="icon-serv" src="img/service-icon.png" alt="icon">
+			<img class="icon-serv" src="img/service-icon.png" alt="icon">
 			<h2>fred&service</h2>
 			<div class="container">
 				<ul class="info-article">
@@ -374,7 +385,7 @@
 			<img src="img/icon-chief.png" alt="logo">
 			<h2>fred&chief</h2>
 		</div>
-			<div class="chief-info">
+		<div class="chief-info">
 			<div class="general-descr">
 					Ось так виглядають ті, чиї турботливі руки щоденно створюють шедеври, якими ви так полюбляєте насолоджуватися.
 			</div>
@@ -395,11 +406,40 @@
 				</li>
 			</ul>
 			</div>
-			</div>
+		</div>
 		
 	</section>
-	<section class="map" id="map">
-		
+	<section class="map-section">
+		<div id='map'></div>
+		<div class="clients-block">
+			<div class="clients-title">Наші клієнти:</div>
+			<ul class="client-list">
+				<li>
+					<div class='info'>
+						<h4>Креативний простір "Часопис"</h4>
+						<p>вул. Льва Толстого, 3</p>
+					</div>
+					<div class="img"></div>
+				</li>
+				<li>
+					<div class='info'>
+						<h4>Вільний простір "Циферблат"</h4>
+						<p>вул. Володимирська, 49А</p>
+					</div>
+					<div class="img"></div>
+				</li>
+				<li>
+					<div class='info'>
+						<h4>Дизайн-середовище "Projector"</h4>
+						<p>вул. Верхній Вал, 22</p>
+					</div>
+					<div class="img"></div>
+				</li>
+			</ul>
+			<div class="ar-down">
+				<a href="#"></a>
+			</div>
+		</div>
 	</section>
 	<section class="news-sec" id="news">
 		<img src="img/news-icon.png" alt="icon">
@@ -542,5 +582,9 @@
 		</ul>
 		<div class="copyright">© PRJCTR 2015</div>
 	</section>
+
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcdL-C4vs_ra7JKZkC0iW0TVAZwSbGo7Y&callback=initMap"></script>
+	<script src='scripts/swiper.min.js'></script>
+	<script src='scripts/script.js'></script>
 </body>
 </html>

@@ -11,3 +11,10 @@
     font-style: normal;
     font-weight: bold;
 }
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url(../fonts/PT_Sans-Web-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
